@@ -16,8 +16,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Local AI Team | AI Automation Agency",
-  description: "Professional AI automation solutions for businesses of all sizes. Streamline workflows, enhance productivity, and unlock insights with our tailored AI services.",
+  title: "Local AI Team | AI Systems Agency",
+  description: "Professional AI Systems solutions for businesses of all sizes. Streamline workflows, enhance productivity, and unlock insights with our tailored AI services.",
   fontFamily: {
     sans: ['var(--font-roboto)'],
     mono: ['var(--font-jetbrains-mono)'],

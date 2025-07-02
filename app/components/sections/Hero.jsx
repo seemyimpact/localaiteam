@@ -29,7 +29,7 @@ export default function Hero() {
           {/* Hero content - centered */}
           <div>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-8 text-white">
-              <span className="block">AI Automation</span>
+              <span className="block">AI Systems</span>
               <span className="block text-[#9fdfff]">For Your Business</span>
             </h1>
             <p className="text-lg md:text-xl text-white mb-12 max-w-3xl mx-auto">
@@ -70,7 +70,7 @@ export default function Hero() {
         </div>
 
         {/* Stats section */}
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        {/* <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="bg-white/20 backdrop-blur-md p-6 rounded-xl shadow-lg border border-white/30">
             <div className="text-3xl font-bold text-[#9fdfff] mb-2">100%</div>
             <p className="text-white">Customer Satisfaction</p>
@@ -83,7 +83,7 @@ export default function Hero() {
             <div className="text-3xl font-bold text-[#9fdfff] mb-2">30%</div>
             <p className="text-white">Avg. Efficiency Increase</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

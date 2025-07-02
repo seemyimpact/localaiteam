@@ -22,15 +22,7 @@ export default function Contact() {
             {/* Left side - Map or image */}
             <div className="rounded-lg overflow-hidden h-full min-h-[250px] bg-[#71b1d1]/10 flex items-center justify-center">
               <div className="text-center p-6">
-                <img 
-                  src="/images/contact-illustration.svg" 
-                  alt="Contact us" 
-                  className="max-w-full h-auto mx-auto mb-4"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = 'https://via.placeholder.com/400x300?text=Local+AI+Team';
-                  }}
-                />
+                
                 <h3 className="text-xl font-semibold text-[#71b1d1]">Local AI Team</h3>
                 <p className="text-neutral-600">Your Partner in AI Innovation</p>
               </div>
@@ -51,25 +43,24 @@ export default function Contact() {
                   </div>
                 </div>
                 
+                {/* Phone contacts */}
                 <div className="flex items-start">
                   <div className="bg-[#71b1d1]/20 p-3 rounded-full mr-4 shadow-sm">
                     <HiOutlinePhone className="text-[#71b1d1] h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg mb-1 text-neutral-800">Call Us</h4>
-                    <a href="tel:+1234567890" className="text-neutral-600 hover:text-[#71b1d1] transition">(123) 456-7890</a>
-                    <p className="text-sm text-neutral-500 mt-1">Monday-Friday, 9AM-5PM PST</p>
+                    <h4 className="font-medium text-lg mb-1 text-neutral-800">Nick Showalter</h4>
+                    <a href="tel:+13097061942" className="text-neutral-600 hover:text-[#71b1d1] transition">(309) 706-1942</a>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-[#71b1d1]/20 p-3 rounded-full mr-4 shadow-sm">
-                    <HiOutlineLocationMarker className="text-[#71b1d1] h-6 w-6" />
+                    <HiOutlinePhone className="text-[#71b1d1] h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg mb-1 text-neutral-800">Visit Us</h4>
-                    <p className="text-neutral-600">123 Tech Drive</p>
-                    <p className="text-neutral-600">Your City, ST 12345</p>
+                    <h4 className="font-medium text-lg mb-1 text-neutral-800">Eric Harrison</h4>
+                    <a href="tel:+12404191271" className="text-neutral-600 hover:text-[#71b1d1] transition">(240) 419-1271</a>
                   </div>
                 </div>
               </div>
